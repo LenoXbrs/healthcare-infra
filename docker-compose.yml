@@ -141,7 +141,7 @@ services:
     image: 0luiseduardo/healthcare-gateway:latest
     container_name: gateway-service
     ports:
-      - "8080:8080"
+      - "30080:8080"
     environment:
       PACIENTES_URL: "http://pacientes:8081"
       USUARIOS_URL: "http://usuarios:8082"
